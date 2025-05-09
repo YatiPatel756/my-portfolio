@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="Utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body> 
+        <section id="webpage">
+        <header id="home" class="header">
+            <div id="personalDetails">
+                <p><h2>Yati Patel</h2>
+                <p>+1 123-456-7890<a class="phone" href="tel:+11234567890">&#9742;</a></p>
+                <p>qwe@gmail.com<a class="email" href="mailto:qwe@gmail.com">&#9993;</a></p>
+            </div>
+            <section id="navigation">
+                <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">   
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="#aboutme">About Me</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#comments">Recommendations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+        </header id="home">
+        <section id="aboutme">
+            <div class="container">
+                <div class="row">
+                    <section id="logo" class="col-10 col-md-3">
+                        <figure id="briefRow" ><img src="/Users/yatipatel/Desktop/Project1/Project/download.png" height= "200px" width="200px"></img>
+                        </figure>
+                    </section>
+                    <section class="col-10 col-md-8" id="biotext" >
+                        <h2 id="topic"><u>Hi! I am Yati Patel</u></h2>
+                        <p id="h3">
+                            Dedicated customer service professional with a proven track record of dependability and adaptability in fast-paced environments. Possessing a strong work ethic, I thrive both independently and collaboratively within teams. Exceptional communication skills, both verbal and written, coupled with proficiency in computer operations, enable me to effectively address customer needs and contribute to organizational success. Committed to delivering unparalleled service while continuously striving for excellence.
+                            </p>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section id="skills">   
+            <div class="container">
+                <h2 id="topic" padding="1cm"><u><b>Skills:</b></u></h2>
+                <div class="row">
+                    <div id="htmlSkill"  class="col-10 col-md-3">
+                        <figure id="briefRow"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="80px">
+                        <figcaption id="html"><u>1 year</u></figcaption>
+                        </figure>
+                    </div>
+                    <div id="cssSkill"  class="col-10 col-md-3">
+                        <figure id="briefRow"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="80px">
+                        <figcaption id="css"><u>1 year</u></figcaption>
+                        </figure>
+                    </div>
+                    <div id="jsSkill"  class="col-10 col-md-3">
+                        <figure id="briefRow"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="80px">
+                        <figcaption id="javascript"><u>1 year</u></figcaption>
+                        </figure>
+                    </div>
+                    <div id="javaSkill"  class="col-10 col-md-3">
+                        <figure id="briefRow"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java Logo" width="80", height="90">
+                        <figcaption id="javascript"><u>1 year</u></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+            <h2 id="topic"><u><b>Projects</b></u></h2>
+
+            <div class="project">
+                <h4>Interest Calculator</h4>
+                <ul>
+                    <li>
+                        Developed a secure website integrated with Calculator for an automobile client using <strong>HTML, CSS, JavaScript</strong> and <strong>IBM Watson Assistant</strong> 
+                    </li>
+                </ul>
+            </div>
+            <div class="project">
+                <h4>Converter</h4>
+                <ul>
+                    <li>
+                        Developed a secure website integrated with Converter for an automobile client using <strong>HTML, CSS, JavaScript</strong> and <strong>IBM Watson Assistant</strong> 
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </section>
+        </section> 
+        <div  id = "comments" class="container">
+
+            <h2 id="topic"><u><b>Recommendations</b></u></h2>
+
+            <div id="recommendations-container"></div>
+
+            <form id="recommendation-form">
+                <input type="text" id="name" placeholder="Your name"><br><br>
+                <textarea id="message" placeholder="Type your message..." rows="5" cols="40"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form> 
+        </div>
+        
+        <script src="script.js"></script>
+
+        <div class="iconbutton">
+            <a id= "homeButtom" href="#home">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#8410ae" viewBox="0 0 25 25" stroke-width="1.5" stroke="white" width="70px">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </a>
+        </div>
+
+        <div id="popup" class="popup-overlay">
+            <div class="popup-content">
+              <p>Thank you for your recommendation!</p>
+              <button onclick="popup.style.display = 'none';">OK</button>
+            </div>
+          </div>
+           
+    </body>
+</html>
